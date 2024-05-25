@@ -97,7 +97,7 @@ const Passenger = () => {
   return (
     <div className="container mx-auto px-4 py-8 bg-gray-100 rounded-lg shadow-md">
       <h2 className="text-2xl font-bold mb-4">Passenger View</h2>
-      <LoadScript googleMapsApiKey='AIzaSyBIiUdrHVzpI7NwN7qC0HFYS9vnrliATzo'>
+      <LoadScript googleMapsApiKey='Googl_API'>
         <GoogleMap
           mapContainerStyle={mapContainerStyle}
           zoom={10}
